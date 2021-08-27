@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ease Do</title>
+  <script src="https://kit.fontawesome.com/86e46a50b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="h-16 w-screen shadow-sm flex justify-between items-center mb-4">
+    <div class="flex justify-start items-center w-40 pl-4">
+      <img src="./image/logo.png" alt="logo">
+      <h1 class="font-bebas text-gray-600 text-2xl pl-2">
+        Ease Do
+      </h1>
+    </div>
+    <div class="pr-4">
+      <input type="text" placeholder="Search" class="focus:outline-none focus:ring-2 focus:ring-lavendar rounded shadow mr-2 py-2 px-3 placeholder-gray-400 text-gray-600"/>
+      <span style="font-size: 1em; color: lightgray;">
+        <i class="fas fa-search"></i>
+      </span>
+    </div>
+  </div>
+
+  <!-- to-do-lists -->
+  <div class="font-condensed text-gray-600 flex justify-center">
+    <!-- to-do -->
+    <div class="w-64 m-8">
+      <div class="mb-6">
+        <h2 class="text-xl">To Do</h2>
+      </div>
+      <div class="mb-6">
+        <button class="group w-60 h-12 shadow border border-transparent rounded-md hover:border-lavendar hover:shadow-none flex justify-center items-center">
+          <i style="color: #BB94E3;" class="fas fa-plus group-hover text-white"></i>
+        </button>
+      </div>
+      <div class="w-60 shadow rounded-md min-h-24 flex justify-between p-2">
+        <div>
+          <h3 class="text-lg">Title</h3>
+          <p class="text-sm">Description</p>
+        </div>
+        <div>
+          ✅
+        </div>
+      </div>
+    </div>
+
+    <!-- done -->
+    <div class="w-64 m-8">
+      <div class="mb-6">
+        <h2 class="text-xl">Done</h2>
+      </div>
+      <div class="mb-6">
+        <button
+          class="group w-60 h-12 shadow border border-transparent rounded-md hover:border-lavendar hover:shadow-none flex justify-center items-center">
+          <i style="color: #BB94E3;" class="fas fa-plus group-hover text-white"></i>
+        </button>
+      </div>
+      <div class="w-60 shadow rounded-md min-h-20 flex justify-between p-2">
+        <div>
+          <h3 class="text-lg">Title</h3>
+          <p class="text-sm">Description</p>
+        </div>
+        <div>
+          ✅
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
